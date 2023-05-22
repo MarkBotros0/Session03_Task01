@@ -1,0 +1,126 @@
+body {
+    background-color: #f0f0f0;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    margin: 10px 0px 20px 0px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+h2 {
+    font-weight: normal;
+    color: grey;
+    font-size: 12px;
+}
+
+h5 {
+    color: #40c1ad;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+a {
+    background-color: #42C3AF;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+
+}
+
+
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    background-color: white;    
+
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.parent1 img {
+    margin-right: 20px;
+    width: 200px;
+    margin: 20px;
+
+}
+
+.parent2 img {
+    width: 300px;
+    margin-right: 20px;
+
+}
+
+.parent3 img {
+    display: none;
+}
+
+.parent4 img {
+    display: none;
+}
+
+.parent1 h6, .parent3 h6 {
+    font-size: 14px;
+    padding-bottom: 20px;
+
+}
+
+.parent2 h6, .parent4 h6 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+.parent3 {
+    padding-left: 30px;
+    flex-direction: row;
+}
+
+.parent4 {
+    padding-left: 30px;
+    flex-direction: row;
+}
+
+.image {
+    margin-right: 20px;
+}
+
+section{
+    margin-bottom: 30px;
+}
+
